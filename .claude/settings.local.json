@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && npx next build 2>&1)",
+      "Bash(cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && node --version && npm run build 2>&1)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 22 && node --version && cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && npm run build 2>&1)",
+      "Bash(sleep 5:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 22 && cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && npm run build 2>&1)",
+      "WebSearch",
+      "WebFetch(domain:www.thingsaboutweb.dev)",
+      "WebFetch(domain:www.sujalvanjare.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:medium.com)",
+      "Bash(cd:*)",
+      "Bash(cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && npm run build 2>&1)",
+      "Bash(node:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20.18.2 && cd \"/Users/wajid/Downloads/Own Company/auxbyte-source\" && npm ls tailwindcss 2>&1)"
+    ]
+  }
+}

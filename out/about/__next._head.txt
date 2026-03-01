@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[38227,["/_next/static/chunks/db69393a0d337726.js","/_next/static/chunks/3a64f0e8df8881f6.js"],"ViewportBoundary"]
+3:I[38227,["/_next/static/chunks/db69393a0d337726.js","/_next/static/chunks/3a64f0e8df8881f6.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"GJ1CY8oH1pb2QPNzkrSBP","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Auxbyte — Transforming Ideas into Digital Reality"}],["$","meta","1",{"name":"description","content":"Website Design, App Development, E-Commerce Solutions & Digital Marketing. Your Digital Helper & Partner with 7+ Years of Excellence. Based in India, serving globally."}],["$","meta","2",{"name":"keywords","content":"web development,app development,e-commerce,digital marketing,SEO,Auxbyte,software company,Bihar,India,React,Next.js,Flutter"}]]}]}]}],null]}],"loading":null,"isPartial":false}
