@@ -77,7 +77,7 @@ const TERMS_SECTIONS = [
   },
   {
     title: "15. Contact Information",
-    content: `For any questions, concerns, or clarifications regarding these Terms and Conditions, please contact us:\n\nAbdul Wajid — Founder & Lead Consultant\nEmail: wajid.jmi@gmail.com\nPhone: +91-9716316256\nAddress: Purnia, Bihar, India\nWebsite: auxbyte.com`,
+    content: `For any questions, concerns, or clarifications regarding these Terms and Conditions, please contact us:\n\nAbdul Wajid — Founder & CEO\nEmail: wajid.jmi@gmail.com\nPhone: +91-9716316256\nAddress: Purnia, Bihar, India\nWebsite: auxbyte.com`,
   },
 ] as const;
 
@@ -107,16 +107,26 @@ export default function TermsPage() {
       </section>
 
       {/* ---- Terms Content ---- */}
-      <section className="section-padding" style={{ background: "var(--bg-section)" }}>
+      <section
+        className="section-padding"
+        style={{ background: "var(--bg-section)" }}
+      >
         <div className="max-w-4xl mx-auto">
           {/* Table of contents */}
           <div className="glow-card p-8 mb-10">
-            <h3 className="text-sm font-bold uppercase tracking-wider mb-4" style={{ color: "var(--text-secondary)" }}>
+            <h3
+              className="text-sm font-bold uppercase tracking-wider mb-4"
+              style={{ color: "var(--text-secondary)" }}
+            >
               Table of Contents
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               {TERMS_SECTIONS.map(({ title }) => (
-                <span key={title} className="text-sm hover:text-[#00e5ff] transition-colors cursor-default" style={{ color: "var(--text-subtle)" }}>
+                <span
+                  key={title}
+                  className="text-sm hover:text-[#00e5ff] transition-colors cursor-default"
+                  style={{ color: "var(--text-subtle)" }}
+                >
                   {title}
                 </span>
               ))}
@@ -127,8 +137,13 @@ export default function TermsPage() {
           <div className="space-y-8">
             {TERMS_SECTIONS.map(({ title, content }) => (
               <div key={title} className="glow-card p-8">
-                <h2 className="text-lg font-bold mb-4 text-[#00e5ff]">{title}</h2>
-                <div className="text-sm leading-relaxed whitespace-pre-line" style={{ color: "var(--text-muted)" }}>
+                <h2 className="text-lg font-bold mb-4 text-[#00e5ff]">
+                  {title}
+                </h2>
+                <div
+                  className="text-sm leading-relaxed whitespace-pre-line"
+                  style={{ color: "var(--text-muted)" }}
+                >
                   {content}
                 </div>
               </div>
@@ -138,8 +153,9 @@ export default function TermsPage() {
           {/* Bottom note */}
           <div className="mt-12 text-center space-y-4">
             <p className="text-xs" style={{ color: "var(--text-subtle)" }}>
-              By using Auxbyte&apos;s services, you acknowledge that you have read,
-              understood, and agree to be bound by these Terms and Conditions.
+              By using Auxbyte&apos;s services, you acknowledge that you have
+              read, understood, and agree to be bound by these Terms and
+              Conditions.
             </p>
             <Link
               href="/contact"
